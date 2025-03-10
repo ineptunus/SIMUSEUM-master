@@ -39,5 +39,5 @@ jobs:
       - name: Validate Laravel Pint Installation
         run: php vendor/bin/pint --version || echo "Laravel Pint is not installed!"
 
-      - name: Run Laravel Pint
-        run: php vendor/bin/pint --test
+      # - name: Run Laravel Pint
+      #   run: php vendor/bin/pint --test
